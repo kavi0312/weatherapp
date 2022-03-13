@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input {
+  padding: 1rem;
+  border-radius: 25px;
+  border: none;
+  background-color: #fff;
+  font-family: inherit;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  min-width: 100px;
+  font-size: 1rem;
+  margin-top:20px;
+}
+
+.info {
+  color: red;
+}
