@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### steps to run the application as  client machine
+
+1. Clone the application from github [https://github.com/kavi0312/weatherapp.git]
+2. go to the project directory and run npm install command.
+3. run npm start
+4. check http://localhost:3000/ is working and test the application.
+
+
+### Aproach for create application
+
+1. Two hooks(useState and useEffect) used for state change and rendering after every state through api call.
+2. api used for this app is from openweather and we are showing temp, minimum temp , maximum temp and humidity for every specific city.
+3. api detail:-[https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=a20411f87ee1f1225fcde9a86793c032]
+4. if there is no specific search found for city then we are giving 'no record found' message to end user.
+5. proper folder structure also maintained in order to understand the code and functionality.
